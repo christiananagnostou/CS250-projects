@@ -1,0 +1,20 @@
+﻿Build started 9/18/2014 2:56:12 PM.
+     1>Project "C:\Users\Christian\Documents\Visual Studio 2013\Projects\GradeBook\GradeBook\GradeBook.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\GradeBook.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GradeBook.cpp
+         GradeBook.cpp
+     1>c:\users\christian\documents\visual studio 2013\projects\gradebook\gradebook\gradebook.h(16): error C2535: 'GradeBook::GradeBook(void)' : member function already defined or declared
+                 c:\users\christian\documents\visual studio 2013\projects\gradebook\gradebook\gradebook.h(15) : see declaration of 'GradeBook::GradeBook'
+     1>c:\users\christian\documents\visual studio 2013\projects\gradebook\gradebook\gradebook.h(17): error C2535: 'GradeBook::GradeBook(std::string)' : member function already defined or declared
+                 c:\users\christian\documents\visual studio 2013\projects\gradebook\gradebook\gradebook.h(8) : see declaration of 'GradeBook::GradeBook'
+     1>c:\users\christian\documents\visual studio 2013\projects\gradebook\gradebook\gradebook.h(18): error C2535: 'GradeBook::GradeBook(std::string)' : member function already defined or declared
+                 c:\users\christian\documents\visual studio 2013\projects\gradebook\gradebook\gradebook.h(8) : see declaration of 'GradeBook::GradeBook'
+     1>c:\users\christian\documents\visual studio 2013\projects\gradebook\gradebook\gradebook.cpp(27): error C2084: function 'std::string GradeBook::getCourseName(void)' already has a body
+                 c:\users\christian\documents\visual studio 2013\projects\gradebook\gradebook\gradebook.h(10) : see previous definition of 'getCourseName'
+     1>c:\users\christian\documents\visual studio 2013\projects\gradebook\gradebook\gradebook.cpp(35): error C2084: function 'std::string GradeBook::getCourseInstructorName(void)' already has a body
+                 c:\users\christian\documents\visual studio 2013\projects\gradebook\gradebook\gradebook.h(12) : see previous definition of 'getCourseInstructorName'
+     1>Done Building Project "C:\Users\Christian\Documents\Visual Studio 2013\Projects\GradeBook\GradeBook\GradeBook.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.53
